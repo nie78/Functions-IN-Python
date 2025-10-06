@@ -8,3 +8,10 @@ def factorial(n):# o(n)
         return m;
 
 
+def find_max(list):# o(n)
+    n= len(list)
+    max=list[0]
+    for i in range(0,n):
+      if(list[i]>max):
+          max=list[i]
+    return max;
