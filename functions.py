@@ -25,3 +25,10 @@ def linear_search(list,target):#o(n)
            return True;
     else:
         return False; 
+
+
+def fibonacci(m):#o(2^n)
+    if(m==0 or m==1):
+        return 1;
+    else:
+        return fibonacci(m-1)+fibonacci(m-2);
