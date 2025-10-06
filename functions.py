@@ -15,3 +15,13 @@ def find_max(list):# o(n)
       if(list[i]>max):
           max=list[i]
     return max;
+
+
+
+def linear_search(list,target):#o(n)
+    n=len(list)
+    for i in range (0,n):
+        if(list[i]==target):
+           return True;
+    else:
+        return False; 
